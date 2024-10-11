@@ -1,0 +1,52 @@
+<div class="content">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Matin nettisivut</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cv.html">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>
+                <li class="nav-item active">  <!-- 'active' for the Contact page -->
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Yhteydenotto</h1>
+    <form>
+        <label for="name">Nimi:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="age">Ikä:</label>
+        <input type="number" id="age" name="age"><br>
+
+        <label for="email">Sähköposti:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="message">Viesti:</label>
+        <textarea id="message" name="message"></textarea><br>
+
+        <label>Mistä kuulit sivustani?</label><br>
+        <input type="radio" id="google" name="source" value="Google">
+        <label for="google">Googlesta</label><br>
+        <input type="radio" id="friend" name="source" value="Ystävä">
+        <label for="friend">Ystävältä</label><br>
+        <input type="radio" id="linkedin" name="source" value="LinkedIn">
+        <label for="linkedin">LinkedInistä</label><br>
+        <input type="radio" id="other" name="source" value="Jokin muu">
+        <label for="other">Muu</label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
